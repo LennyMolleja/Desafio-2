@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Fuzzy Bubbles', cursive;
+    background-color: rgb(231, 231, 167);
+}
+
+header{
+    background-image: linear-gradient(to right, rgba(10, 92, 245, 0.5), rgba(22, 275, 177, 0.3)), url("../assets/img/simpson.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 1200px;
+    margin: 30px;
+    
+}
+
+ .header-1{
+    padding: 70px;
+ }
+ 
+ .img-personajes{
+    height: 280px;
+    width: 310px;
+    border-radius: 25%;
+    margin: 5px;
+ }
+
+ .contenedor{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.text{
+    padding-top: 100px;
+}
+ 
+footer{
+    background-color: brown;
+    margin-top: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
